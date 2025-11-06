@@ -103,6 +103,7 @@
 		img { border: 0; outline: none; text-decoration: none; }
 		table { border-collapse: collapse !important; }
 		body { margin: 0 !important; padding: 0 !important; width: 100% !important; text-rendering: optimizeLegibility !important;}
+        .darkBack {color-scheme: only dark !important;}
 		h1, h2, h3, h4, h5, h6, p { margin: 0 !important; -webkit-font-smoothing: antialiased !important; text-rendering: optimizeLegibility !important;}
         
 		/* HIDE ON DESKTOP */
@@ -144,6 +145,8 @@
 			.stack { width:320px!important; display:block!important; padding: 0 !important; }
 			.img { width:100% !important; height:auto !important; }
             .none { width:0px !important; height:auto !important; }
+            .darkBack {color-scheme: only dark !important; background-color: #1C1E22 !important;}
+            .footerBack {color-scheme: only light !important; background-color: #e7e7e7 !important;}
 			/*MOBILE VISIBILITY*/
 			.mobileOff { width: 0px !important; display: none !important; }
 			.mobileOn { display: block !important; max-height:none !important; }
@@ -232,55 +235,50 @@
 
 <!-- START FULL WIDTH MAIN CONTENT  -->
 <section class="body">
-        <table class="" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#dfdfdf;" bgcolor="#dfdfdf">
+        <table class="darkBack" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#dfdfdf;" bgcolor="#dfdfdf">
             <tr>
                 <td align="center" valign="top">
 
-                    <!-- START HERO -->
-                        <table class="mobile-400" role="presentation" width="750" cellpadding="0" cellspacing="0" border="0" style="width: 400px; background-color: transparent;">
-                            <tr>
-                                <td align="center" class="imgresize100">
-                                    <img src="Assets/ONEDAYSALE.png" width="750" height="auto" style="margin:0; padding:0; border:none; width: 750px;" border="0" alt="cover"/>
-                                </td>
-                            </tr>
-                        </table>
-                    <!-- END HERO -->
 
                     <!-- START BODY BOX-->
-                    <table class="mobile-320  boxAnim" role="presentation" width="600" style="background-color:#e7e7e7; width: 600px;" bgcolor="#e7e7e7" cellpadding="0" cellspacing="0" border="0">
+                    <table class="mobile-320 darkBack boxAnim" role="presentation" width="600" style="background-color:#e7e7e7; width: 600px;" bgcolor="#e7e7e7" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                             <td align="center" valign="top">
+                                <!-- START LOGO FRAME-->
+                                <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="width: 400px;">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                            <tr>
+                                                <td class="imgresize60 img" align="center" valign="top">
+                                                    <a rel="noopener" href="https://reader.aa.mlive.com" target="_blank"><img src="Assets/B_LG_rgb_MI_AnnArbor.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Ann Arbor News online logo" /></a>
+                                                </td>
+                                            </tr>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- END LOGO FRAME -->
+
 
                                 <!-- START HEADLINE -->
                                 <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="border: 0;">
                                     <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <tr>
                                         <td align="center" valign="top">
-                                            <h1 class="h1-text-resize" style="font-family: 'Playfair Display', Georgia, serif, roman; mso-ascii-font-family:'Playfair Display', Georgia, serif, roman; mso-ansi-font-weight: 900; font-weight: 900; font-optical-sizing: none;  font-style: normal; display: inline-block; font-size: 60px; line-height: 1; color: #434544; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; text-wrap: balance; ">
+                                            <h1 class="h1-text-resize" style="font-family: 'Playfair Display', Georgia, serif, roman; mso-ascii-font-family:'Playfair Display', Georgia, serif, roman; mso-ansi-font-weight: 900; font-weight: 900; font-optical-sizing: none;  font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; color: #1C1E22; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; text-wrap: balance; ">
                                                 Unwrap the Savings.
                                             </h1>
                                         </td>
                                     </tr>
-                                    <!--SPACER--><tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </table>
                                 <!-- END HEADLINE -->
-                                <!-- START DECK -->
-                                <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="border: 0;">
-                                    <tr>
-                                        <td align="center" valign="top">
-                                            <h1 class="h1-text-resize" style="font-family: 'Playfair Display', Georgia, serif, roman; mso-ascii-font-family:'Playfair Display', Georgia, serif, roman; mso-ansi-font-weight: 900; font-weight: 900; font-optical-sizing: none;  font-style: normal; display: inline-block; font-size: 20px; line-height: 1.5; color: #434544; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; text-wrap: balance; ">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
-                                            </h1>
-                                        </td>
-                                    </tr>
-                                    <!--SPACER--><tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                </table>
-                                <!-- END DECK -->
+
                                 <!-- START INTRO -->
                                 <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                    <!--SPACER--><tr><td height="24" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     <tr>
                                         <td align="center" valign="top">
-                                            <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #1C1E22; text-wrap: balance;   "><strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.</p>
+                                            <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #1C1E22; text-wrap: balance;"><strong>Strong intro lines intro intro intro.</strong> Ur autemos sinvellant, simusan ditaquunt repudit, simolup tatur, coribusae qui demporum qui res alitas sequi blabo. Et harum qui omnihiciae odi volut hicatur epudit, que et ex et fugiae ilis utem re, voluptat ex esciis consequ.</p>
                                         </td>
                                     </tr>
                                     <!--SPACER--><tr><td height="80" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -298,11 +296,11 @@
 
 <!-- START FULL WIDTH CONTENT DOWNPAGE  -->
 <section class="downpage">
-    <table class="" role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#d3b59c;" bgcolor="#d3b59c">
+    <table class="footerBack" role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#d3b59c;" bgcolor="#d3b59c">
         <tr>
             <td align="center" valign="top">
                 <!-- START DOWNPAGE OUTER TABLE -->
-                    <table class="mobile-320  " role="presentation" width="600" style="background-color:#d8bba3; width: 600px;" bgcolor="#d8bba3" cellpadding="0" cellspacing="0" border="0">
+                    <table class="mobile-320 darkBack " role="presentation" width="600" style="background-color:#d8bba3; width: 600px;" bgcolor="#d8bba3" cellpadding="0" cellspacing="0" border="0">
                                 <!-- SPACER ABOVE DOWNPAGE --><tr><td height="60" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 <tr>
                                     <td align="center" valign="top">
@@ -483,7 +481,7 @@
 
 <!-- START FULL 100 -->
  <section class="footer">
-    <table class="" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#d3b59c;" bgcolor="#d3b59c">
+    <table class="footerBack" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#d3b59c;" bgcolor="#d3b59c">
 		<tr>
 			<td align="center" valign="top">
                 <!-- START FOOTER MAIN TOP 600-->
