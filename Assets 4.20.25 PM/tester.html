@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Unwrap our best deal of the year!</title>
     <!-- add icon link -->
-    <link rel="icon" href="https://media.sailthru.com/composer/images/bazh/3iinw7do/ajx/9tb/a0d/FAVICON_MI_BayCity.png"type="image/x-icon"/>
+    <link rel="icon" href="https://media.sailthru.com/composer/images/bazh/qhobiq7z/fsu/div/b04/FAVICON_AL_Birmingham.png"type="image/x-icon"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,23 +28,97 @@
 
 /* TEMPLATE LOCALIZATION - ONLY USE THIS TO UPDATE TEMPLATE LOCALIZATIONS - CQ WITH SEAN  *
 
+FAVICON - duh
 
-The Bay City Times - replaces name of site
+The Birmingham News - replaces name of site
 
-reader.bc.mlive.com - url for online np
+reader.thebirminghamnews.com/
 
-mlive.com - replaces name of the dot com - don't include .com wording
+al.com - replaces name of the dot com - don't include .com wording
 
 
+(877) 270-4591 - toll free number
 
-(877) 430-9851 - toll free number
+https://media.sailthru.com/fss/fld6id/612719aa-dc28-415b-a10d-f8e2b6a494c3/WICON_tradO_rgbCENTERED_AL_Birmingham.png  - replaces single line logo
 
-https://media.sailthru.com/fss/fld6id/2b80caa5-d28d-40d2-9146-15b005577415/WICON_tradO_rgbCENTERED_MI_BayCity.png  - replaces single line logo
-
-https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC+DEALDECEMBER.gif - replaces localized main image
+https://media.sailthru.com/fss/fld6id/eff446e4-0893-4efc-afa1-081c62fdb26a/AL+BHM+DecemberDeal.gif - replaces localized main image
 
 			
 		/* CLIENT-SPECIFIC STYLES */
+
+/*
+Source - https://stackoverflow.com/a
+Posted by brc-dd, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-21, License - CC BY-SA 4.0
+*/
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+
+#scroll-container {
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }}
+
+
         .hoverRibbon {  transition: all 0.2s ease-in-out; }
         .hoverRibbon:hover td {background-color: #e7e7e7 !important; opacity: 0.5 !important; filter: blur(1px) !important;
                 transition: all 0.2s ease-in-out; }
@@ -185,7 +259,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
 		max-width:0px;
 		opacity:0;
 		overflow:hidden;">
-        Unwrap our best deal of the year! $49.99 for an entire year of the The Bay City Times Online.
+        Unwrap our best deal of the year! $49.99 for an entire year of the The Birmingham News.
         </td>
     </tr>
 </table>
@@ -193,7 +267,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
 
 <!-- START FULL WIDTH PREHEADER  -->
 <section class="preheader">
-    <table class="" role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#111111;" bgcolor="#111111">
+    <table class="" role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#111111; " bgcolor="#111111">
         <tr>
             <td align="center" valign="top">
                 <table class="mobile-100" role="presentation" width="600" style="background-color:#191b1f; width: 600px;" bgcolor="#191b1f" cellpadding="0" cellspacing="0" border="0">
@@ -228,7 +302,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                     <table class="mobile-100" role="presentation" width="750" height="100%" cellpadding="0" cellspacing="0" border="0" style=" background-color: transparent !important;" bgcolor="transparent">
                         <tr>
                             <td align="center" class="imgresize100">
-                                <img src="https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC+DEALDECEMBER.gif" width="750" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Bay City Times Online. Read it anytime, anywhere. Later Sports Scores. Later News Updates. Reader Exclusives & More!">
+                                <img src="https://media.sailthru.com/fss/fld6id/eff446e4-0893-4efc-afa1-081c62fdb26a/AL+BHM+DecemberDeal.gif" width="750" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Birmingham News. Read it anytime, anywhere. Later Sports Scores. Later News Updates. Reader Exclusives & More!">
                             </td>
                         </tr>
                     </table>
@@ -244,7 +318,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                             <!--SPACER--><tr><td height="40" class="spacerMobResize" style="font-size:10px; line-height:1; background-color:#1C1E22;">&nbsp;</td></tr>
                                             <tr>
                                                 <td class="imgresize50" align="center" valign="top">
-                                                    <a rel="noopener" href="https://reader.bc.mlive.com" target="_blank"><img src="https://media.sailthru.com/fss/fld6id/2b80caa5-d28d-40d2-9146-15b005577415/WICON_tradO_rgbCENTERED_MI_BayCity.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Bay City Times Online logo" /></a>
+                                                    <a rel="noopener" href="https://reader.thebirminghamnews.com/" target="_blank"><img src="https://media.sailthru.com/fss/fld6id/612719aa-dc28-415b-a10d-f8e2b6a494c3/WICON_tradO_rgbCENTERED_AL_Birmingham.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="The Birmingham News logo" /></a>
                                                 </td>
                                             </tr>
                                         </td>
@@ -332,7 +406,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                 <!-- END HEADLINE -->
 
                                 <!-- START INTRO -->
-                                <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="1" style="border: 1px solid  #db1540;">
+                                <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="1px" style="border: 1px solid  #db1540;">
                                     <tr>
                                         <td align="center" valign="top">
                                             <table class="mobile-280" role="presentation" width="398" cellpadding="0" cellspacing="0" border="0">
@@ -374,7 +448,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                                                                     <table class="mobile-220 CTAbuttonCAMPAIGN" role="presentation" width="260" cellpadding="0" cellspacing="0" border="0">
                                                                                                         <tbody><tr>
                                                                                                             <td align="center" height="40" width="220" style="background-color:#db1540; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; border: 2px solid #db1540; width: 300px; height: 40px; " class="CTAbuttonCAMPAIGN">
-                                                                                                                <a href="https://subscribe.mlive.com/?SiteCode=BC" target="_blank" style="display:block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:16px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#e7e7e7; font-family: Helvetica, Arial, sans-serif;">Subscribe Now</font></a>
+                                                                                                                <a href="https://subscribe.DOTCOM.com" target="_blank" style="display:block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:16px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#e7e7e7; font-family: Helvetica, Arial, sans-serif;">Subscribe Now</font></a>
                                                                                                             </td>
                                                                                                         </tr></tbody>
                                                                                                     </table>
@@ -385,7 +459,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                                                             <!-- SUBSCRIBER CHATTER -->
                                                                                             <tr>
                                                                                                 <td align="center" valign="top">
-                                                                                                    <p class="italic-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #e7e7e7; text-wrap: balance;">or call toll free (877) 430-9851</p>
+                                                                                                    <p class="italic-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 1; color: #e7e7e7; text-wrap: balance;">or call toll free (877) 270-4591</p>
                                                                                                 </td>
                                                                                             </tr>
                                                                                             <!-- SPACER --><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -428,7 +502,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                     <table class="mobile-200" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
                                                         <tr>
                                                             <td align="center" valign="top">
-                                                                <img src="https://media.sailthru.com/fss/fld6id/2e9f66f8-d9eb-4e84-8132-cb33912096ef/MOBILEonly26.gif" width="300" height="240" class="mobile-200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Ann Arbor News online.">
+                                                                <img src="https://media.sailthru.com/fss/fld6id/8bc48fbe-e5ce-41d1-84bb-03cb7116992c/MOBILEonlyALA26.gif" width="300" height="240" class="mobile-200" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Ann Arbor News.">
                                                             </td>
                                                         </tr>
                                                         <!--FAKE HR--><tr><td height="1" style="font-size:1px; line-height:1; border-top: 1px solid #e7e7e7;">&nbsp;</td></tr>
@@ -441,7 +515,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                 <tr>
                                                     <td align="center" valign="top">
                                                         <h2 style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #e7e7e7;"> 
-                                                            <span>Get The Bay City Times Online edition with:</span>
+                                                            <span>Get The Birmingham News with:</span>
                                                         </h2>
                                                     </td>
                                                 </tr>
@@ -462,20 +536,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                             ●  Extra In-depth pages of news, sports, opinion, books, health, food, money & culture.</p>
                                                     </td>
                                                 </tr>
-                                                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                                <tr>
-                                                    <td align="left" valign="top">
-                                                        <p class="bullet-text-resize center-align" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 1.1; color: #e7e7e7; text-wrap: balance;">
-                                                            ●  Daily full-page primetime TV grid.</p>
-                                                    </td>
-                                                </tr>
-                                                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                                                <tr>
-                                                    <td align="left" valign="top">
-                                                        <p class="bullet-text-resize center-align" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 1.1; color: #e7e7e7; text-wrap: balance;">
-                                                            ●  Weekly TV Best Bets section.</p>
-                                                    </td>
-                                                </tr>
+
                                                 <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                                 <tr>
                                                     <td align="left" valign="top">
@@ -505,7 +566,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                                     <table class="mobile-200" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
                                                         <tr>
                                                             <td align="center" valign="top">
-                                                                <img src="https://media.sailthru.com/fss/fld6id/51a90e6f-5623-46f8-a1f0-443cf037bef8/MOBILEfeatures26.gif" width="300" height="240" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Ann Arbor News online.">
+                                                                <img src="https://media.sailthru.com/fss/fld6id/a8a92163-52f4-412e-b8a5-09133df76762/MOBILEfeaturesALA26.gif" width="300" height="240" style="margin:0; padding:0; border:none; display:block;" border="0" alt="Only in the The Ann Arbor News.">
                                                             </td>
                                                         </tr>
                                                         <!--FAKE HR--><tr><td height="1" style="font-size:1px; line-height:1; border-top: 1px solid #e7e7e7;">&nbsp;</td></tr>
@@ -571,13 +632,27 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                             <table class="mobile-220 CTAbutton" role="presentation" width="320" cellpadding="0" cellspacing="0" border="0">
                                                 <tbody><tr>
                                                     <td align="center" height="40" width="320" style="background-color:#e7e7e7; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; border: 2px solid #e7e7e7; width: 300px; height: 40px;" class="CTAbutton">
-                                                        <a href="https://subscribe.mlive.com/?SiteCode=BC" target="_blank" style="display:block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:12px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#1C1E22; font-family: Helvetica, Arial, sans-serif;">Subscribe Today!</font></a>
+                                                        <a href="https://subscribe.al.com" target="_blank" style="display:block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:12px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#1C1E22; font-family: Helvetica, Arial, sans-serif;">Subscribe Today!</font></a>
                                                     </td>
                                                 </tr></tbody>
                                             </table>
                                         </td>
                                     </tr>
                                     <!-- BUTTONS 1 END-->
+                                    <!-- SPACER BETWEEN BUTTONS --><tr><td height="16" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <!-- BUTTONS 2 START-->
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="mobile-220 CTAbutton" role="presentation" width="320" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody><tr>
+                                                    <td align="center" height="40" width="320" style="background-color:#1C1E22; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; border: 2px solid #e7e7e7; width: 300px; height: 40px;" class="CTAbutton">
+                                                        <a href="https://reader.thebirminghamnews.com/" target="_blank" style="display:block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:12px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#e7e7e7; font-family: Helvetica, Arial, sans-serif;">See it now</font></a>
+                                                    </td>
+                                                </tr></tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- BUTTONS 2 END-->
                                     <!-- SPACER BELOW BUTTONS --><tr><td height="100" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </table>
                                 <!-- END CTA BUTTONS -->
@@ -591,11 +666,32 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
 </section>
 <!-- END FULL WIDTH ALL CONTENT -->
 
+<!-- START SCROLLER -->
+ 
+<section class="body mobile-100">
+        <table class="darkBack mobile-100" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#121212;" bgcolor="#121212" >
+            <tr >
+                <td align="center" valign="top">
+                    <table class="mobile-100 wrapper" role="presentation" width="100%" height="20px" cellpadding="0" cellspacing="0" border="0" style=" background-color: #db1540 !important; mso-element-frame-height:20px;" bgcolor="#db1540">
+                        <tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        <tr>
+                            <td align="center" valign="top" height="20px">
+                                <p class="marquee" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 100%; color: #121212; text-transform: uppercase; font-weight: 600; letter-spacing: 2;">.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Read it anytime.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Read it anywhere.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Later Sports scores.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Later News Updates.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Reader Exclusives.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Extra In-depth pages of news, sports & opinion.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Extra In-depth pages of books, health & food.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Daily full-page primetime TV grid</p>
+                            </td>
+                        </tr>
+                        <tr><td height="20" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+</section>
+<!-- END SCROLLER -->
+
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
 <!-- !!!!!! START SITE LOCALIZATION !!!!!! -->
 
-<!-- START FULL 100 SUBSCRIPTION FOOTER -->
+
  <section class="footer">
     <table class="footerBack" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#dfdfdf;" bgcolor="#dfdfdf">
 		<tr>
@@ -615,7 +711,7 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                         <td class="imgresize80" align="center" valign="top">
                                             <!-- FILE DIMENSIONS SHOULD BE DOUBLE FOR RETINA DISPLAY
                                             width="" attribute must be set -->
-                                            <a rel="noopener" href="https://reader.bc.mlive.com" target="_blank"><img src="https://media.sailthru.com/fss/fld6id/bcd81284-04d3-4d59-b455-181367c63c33/FLOGO_MI_BayCity.png" width="260" style="margin:0; padding:0; border:none; display:block; width: 260px;" border="0" alt="The Bay City Times logo" /></a>
+                                            <a rel="noopener" href="https://reader.thebirminghamnews.com/" target="_blank"><img src="https://media.sailthru.com/fss/fld6id/62bb1d1f-575d-4078-baf8-d48d6e9c2534/FLOGO_AL_Birmingham.png" width="260" style="margin:0; padding:0; border:none; display:block; width: 260px;" border="0" alt="The Birmingham News logo" /></a>
                                         </td>
                                         </tr>
                                         <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
@@ -651,10 +747,10 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                                     <table class="mobile-320 appButton" role="presentation" width="314" cellpadding="0" cellspacing="0" border="0" style="width: 314px;">
                                         <tr>
                                             <td class="" align="left" valign="top">                       
-                                                    <a rel="noopener" href="https://apps.apple.com/us/app/the-bay-city-times/id792741756" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/uq9/g84/1wd/APP_Apple.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:transparent; background: transparent; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; width: 150px; border: 1px solid #e7e7e7;" class="center-align" alt="Apple App Store button"/></a>
+                                                    <a rel="noopener" href="https://apps.apple.com/us/app/the-birmingham-news/id470912745" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/uq9/g84/1wd/APP_Apple.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:transparent; background: transparent; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; width: 150px; border: 1px solid #e7e7e7;" class="center-align" alt="Apple App Store button"/></a>
                                             </td>
                                             <td class="" align="right" valign="top">
-                                                    <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.advancelocal.baycity" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/qp3/u0b/gvp/APP_Google.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:transparent; background: transparent; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; width: 150px; border: 1px solid #e7e7e7;" class="center-align" alt="Google Play button"/></a>
+                                                    <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.advancelocal.bhamnews" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/qp3/u0b/gvp/APP_Google.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:transparent; background: transparent; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; width: 150px; border: 1px solid #e7e7e7;" class="center-align" alt="Google Play button"/></a>
                                             </td>
                                         </tr>
                                     </table>
@@ -685,8 +781,8 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#e7e7e7; width: 400px;" bgcolor="#e7e7e7">
                                     <tr>
                                     <td align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
-                                        <p style="color:#1C1E22; display: inline; text-transform: capitalize;"><strong>The Bay City Times. </strong>540 S. Saginaw St., Ste 101, Flint, MI 48502.</p>
-                                        <p style="color:#1C1E22; display: inline; font-weight: 500; filter: opacity(70%);">You received this email because you are a subscriber to <a rel="noopener" href="https://www.MLive.com/" class="hovertext"  target="_blank" style="color:#1C1E22; text-decoration:none;">MLive.com</a> or <a rel="noopener" href="https://reader.bc.mlive.com" class="hovertext"  target="_blank" style="color:#1C1E22; text-decoration:none;">The Bay City Times</a>. Click here to<a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" class="hoverText"  target="_blank" style="color:#1C1E22; text-decoration:underline;"> Unsubscribe.</a></p>
+                                        <p style="color:#1C1E22; display: inline; text-transform: capitalize;"><strong>The Birmingham News </strong>2201 4th Ave N, Birmingham, Alabama.</p>
+                                        <p style="color:#1C1E22; display: inline; font-weight: 500; filter: opacity(70%);">You received this email because you are a subscriber to <a rel="noopener" href="https://www.al.com/" class="hovertext"  target="_blank" style="color:#1C1E22; text-decoration:none;">al.com</a> or <a rel="noopener" href="https://reader.thebirminghamnews.com/" class="hovertext"  target="_blank" style="color:#1C1E22; text-decoration:none;">The Birmingham News</a>. Click here to<a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" class="hoverText"  target="_blank" style="color:#1C1E22; text-decoration:underline;"> Unsubscribe.</a></p>
                                     </td>
                                     </tr>
                                 </table>
@@ -714,13 +810,13 @@ https://media.sailthru.com/fss/fld6id/39b0a430-2a34-437d-8a3d-dfa4fb62c09d/MI+BC
 								    <table class="mobile-240 hoverRibbon" role="presentation" width="260"  border="0" cellspacing="0" cellpadding="0" style="width: 260px;">
 									    <tr>
 										    <td width="70" height="40" style="border-radius:0px; background-color: #e7e7e7;" align="center" style="width: 70px; height: 40px;">
-											    <a rel="noopener" href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank"  style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size: 14; line-height: 1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;"class="footer-text-resize">Contacts</a>
+											    <a rel="noopener" href="https://www.alabamamediagroup.com/contact/" target="_blank"  style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size: 14; line-height: 1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;"class="footer-text-resize">Contacts</a>
 										    </td>
 										    <td width="70" height="40" style="border-radius:0px; background-color: #e7e7e7;" align="center" style="width: 70px; height: 40px;">
-											    <a rel="noopener" href="https://www.mlive.com/privacy-policy/" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size:14; line-height:1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;"class="footer-text-resize">Privacy</a>
+											    <a rel="noopener" href="https://www.al.com/privacy-policy/" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size:14; line-height:1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;"class="footer-text-resize">Privacy</a>
 										    </td>
 										    <td width="70" height="40" style="border-radius:0px; background-color: #e7e7e7;" align="center" style="width: 70px; height: 40px;">
-											    <a rel="noopener" href="https://www.mlive.com/printsubscription/faq/BCT/" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size:14; line-height:1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;" class="footer-text-resize">Questions</a>
+											    <a rel="noopener" href="https://www.alabamamediagroup.com" target="_blank" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size:14; line-height:1.5; font-weight: bold; text-align: center; text-transform: lowercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;" class="footer-text-resize">About us</a>
 										    </td>
 									    </tr>
 								    </table>
